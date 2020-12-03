@@ -3,29 +3,74 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Outras formatações</title>
+    <title>Listas</title>
 </head>
 <body>
-    <h1>Outras formatações</h1>
-    <h2>Código-fonte</h2>
-    <p>O comando <code>document.getElementByID('teste')</code> é escrito em linguagem JavaScript.</p>
-    <pre>
-        <code>
-    num - int(input('Digite um número'))
-    if num % 2 == 0;
-        print(f'O número {num} é PAR')
-    else:
-        print(f'O número {num} é IMPAR')
-        </code>
-    </pre>
-    <h2>Citações</h2>
-    <p>Como diria x: <q>o computador é um burro muito rapido</q></p>
-    <h2>Citações completas</h2>
-    <p>Segundo Y:</p>
-    <blockquote cite="link.com">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum nisi iusto inventore. Excepturi ab repudiandae nesciunt delectus culpa officia quo dolorem cum voluptates aliquam molestias, minima fuga totam earum quia!
-    </blockquote>
-    <h2>Abreviações</h2>
-    <p>Estou estudando <abbr title="HyperText Markup Language">HTML</abbr> e <abbr title="Cascading Styles Sheets">CSS</abbr></p>
+    <h1>Trabalhando com Listas</h1>
+    <h2>Listas Ordenadas</h2>
+    <ol type="I"> <!-- 1 A a I i -->
+        <li>Acordar
+        <li>Ligar p/ João
+        <li>Tomar café
+        <li>Escovar os dentes
+        <li>Ir facu</li>
+        <li>Almoçar</li>
+        <li>Ir trabalho</li>
+        <li>Voltar casa</li>
+        <li>Dormir</li>
+    </ol>
+    <h2>Listas não Ordenadas</h2>
+    <ul type="square"> <!-- disc circle square -->
+        <li>Pão</li>
+        <li>Tomate</li>
+        <li>Manteiga</li>
+        <li>Arroz</li>
+    </ul>
+    <h2>Linguagens favoritas</h2>
+    <ol>
+        <li>Antigas</li>
+        <ol type="a">
+            <li>A</li>
+            <li>DAS</li>
+            <li>aaofhaes</li>
+        </ol>
+        <li>Novas</li>
+        <ol type="a" start="4">
+            <li>aueh</li>
+            <li>oiuahueh</li>
+            <li>tttqtquw</li>
+        </ol>
+    </ol>
+    <h2>Jogos favoritos</h2>
+    <ol>
+        <li>master</li>
+        <ul type="square">
+            <li>alex kid</li>
+            <li>huhdr</li>
+        </ul>
+        <li>mega</li>
+        <ul type="square">
+            <li>street fighter</li>
+            <ul type="circle">
+                <li>SF 2</li>
+                <li>SF 3</li>
+                <li>SF 2 turbo</li>
+            </ul>
+            <li>mortal kombat</li>
+            <li>sonic</li>
+        </ul>
+        <li>xbox one</li>
+        <ul type="square">
+            <li>forza</li>
+            <li>mortal kombat</li>
+        </ul>
+    </ol>
+    <h2>Lista de Definições</h2>
+    <dl>
+        <dt>HTML</dt>
+        <dd>Linguagem para fazer sites</dd>
+        <dt>CSS</dt>
+        <dd>Linguagem para fazer o desing do sites</dd>
+    </dl>
 </body>
 </html>
